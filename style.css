@@ -6,7 +6,7 @@ html, body
 
 body
 {
-background-image: linear-gradient(to right top, red, rgb(0, 174, 255), red, rgb(0, 174, 255), red);
+background-image: linear-gradient(to right top, #0091ff, #ff0000, #00a2ff, #ff0000, #00aeff);
 }
 
 .header

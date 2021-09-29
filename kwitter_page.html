@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Let's Chat Message page</title>
+	<title>Kwitter Message page</title>
 <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
 <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
@@ -17,11 +17,13 @@
 </head>
 <body>
 
+<button id = "back" class = "btn btn-success" onclick = "back()"> Back To Home </button>
+
 <div class="container">
 	<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick = "logOut()">Logout</button>
 	<center>
 		<h1 class="header">	
-			Let's Chat Web App!
+			Kwitter	
 			<sup>
 				<img src="m2.png">
 			</sup>
@@ -34,7 +36,7 @@
 	<div class="input_div_message_page">
 		<label>Send:</label>
 		<input type = "text" id = "msg" class = "form-control" placeholder = "Message">
-		<button class="btn btn-danger" onclick = "send()">Send</button>
+		<button class="btn btn-success" onclick = "send()">Send</button>
 	</div>
 </center>
 
